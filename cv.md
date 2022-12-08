@@ -6,7 +6,6 @@
 
 
 ## Tech stack
-***
 - HTML5 CSS3 
 - Bootstrap 
 - Vanilla JavaScript 
@@ -16,11 +15,9 @@
 
 
 ## About
-***
 Junior fronend developer with solid background in Customer Service passionate about coding and looking forward to learn much about Web Development and becoming high level professional in IT.
 
 ## Proffesional Experience 
-***
 ### SKF
 Customer Service Specialist (2017-2021) 
   * Manage all order-related activity for an assigned customer base including order processing, delivery schedule, invoicing, and post-delivery support.
@@ -28,7 +25,6 @@ Customer Service Specialist (2017-2021)
   * Arranging and handling of all local shipments for assign customers. Cargo Tracing.
 
 ## Education  
-***
 #### Ural Federal University 
 - Bachelor of Mechanical Engineering
 #### Ural Federal University
@@ -37,7 +33,6 @@ Customer Service Specialist (2017-2021)
 - FrontEnd Development Course
 
 ## Code Example
-***
 ```
 const movies = ['Proposal', 'Bridget Jones diary', 'Me myself and Irene'];
 const moviesUpdate = movies.map(item =>{
