@@ -29,12 +29,12 @@ Customer Service Specialist (2017-2021)
 
 ## Education  
 ***
-* Ural Federal University 
-    - Bachelor of Mechanical Engineering
-* Ural Federal University
-    - Technical Translate
-* LLC Can She Code 
-    - FrontEnd Development Course
+#### Ural Federal University 
+- Bachelor of Mechanical Engineering
+#### Ural Federal University
+- Technical Translate
+#### LLC Can She Code 
+- FrontEnd Development Course
 
 ## Code Example
 ***
@@ -46,6 +46,5 @@ return 'I have seen ' + item +' last year';
 console.log(moviesUpdate)
 ```
 ## Languages
-***
 * English - Intermediate 
 * Russian - Native
