@@ -15,7 +15,7 @@
 
 
 ## About
-Junior fronend developer with solid background in Customer Service passionate about coding and looking forward to learn much about Web Development and becoming high level professional in IT.
+Junior Front-End developer with solid background in Customer Service passionate about coding and looking forward to learn much about Web Development and becoming high level professional in IT.
 
 ## Proffesional Experience 
 ### SKF
