@@ -29,6 +29,22 @@ Customer Service Specialist (2017-2021)
     * Bachelor of Mechanical Engineering
 * Ural Federal University
     * Linguistics - Technical Translation 
+* CanSheCode LLC 
+    * Front-End Development Course
+
+### Code Example
+```
+const movies = ['Proposal', 'Bridgit Jones Diary', 'Me myself and Irene'];
+const moviesUpdate = movies.map(item => {
+    return "I have seen" + item + "last week"
+})
+alert(moviesUpdate)
+```
+
+
+
+
+
 
 
 
