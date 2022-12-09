@@ -40,7 +40,9 @@ const moviesUpdate = movies.map(item => {
 })
 alert(moviesUpdate)
 ```
-
+### Languages
+* English - Intermediate
+* Rssian - Native
 
 
 
