@@ -29,7 +29,7 @@ Customer Service Specialist (2017-2021)
 * Ural Federal University 
     * Bachelor of Mechanical Engineering
 * Ural Federal University
-    * Linguistics - Technical Translation 
+    * Linquistics- Technical Translation 
 * CanSheCode LLC 
     * Front-End Development Course
 
@@ -43,7 +43,7 @@ alert(moviesUpdate)
 ```
 ### Languages
 * English - Intermediate
-* Rssian - Native
+* Russian - Native
 
 
 
