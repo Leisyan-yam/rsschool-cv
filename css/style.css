@@ -92,6 +92,7 @@ main{
 }
 
 h3{
+    margin-top: 40px;
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid black;
@@ -113,6 +114,7 @@ h3{
     margin: 0px;
 }
 
+
 .project-images{
     padding: 30px;
     display: flex;
@@ -121,4 +123,8 @@ h3{
 
 .imageOfProject{
     width: 160px;
+}
+
+.project-title{
+    border-bottom: 0;
 }
