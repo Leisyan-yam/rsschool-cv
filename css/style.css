@@ -77,11 +77,14 @@ h2{
 }
 
 main{
+    background-color: aliceblue;
+}
+
+.main-container{
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: aliceblue;
 }
 
 .experience{
@@ -108,4 +111,14 @@ h3{
 
 .list-education{
     margin: 0px;
+}
+
+.project-images{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageOfProject{
+    width: 160px;
 }
