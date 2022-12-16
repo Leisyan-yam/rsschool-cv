@@ -4,11 +4,15 @@
 	border: 0;
 	}
 
-    h1,h2,h3,h4,h5{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
         margin: 5px;
     }
 
-body{
+body {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -16,13 +20,13 @@ body{
 }
 
 
-.container{
+.container {
     width: 900px;
 }
 
-.list{
+.list {
     list-style: none;
-    margin: 15px 0px 10px 0px;
+    margin: 15px 0px 1px 0px;
 }
 
 .nav {
@@ -30,13 +34,18 @@ body{
     flex-direction: row;
     justify-content: flex-end;
 }
+h4 span {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 12px;
+}
 
-.nav-item, .nav-link{
+.nav-item, .nav-link {
     text-decoration: none;
     margin-right: 20px;
 }
 
-.header-container{
+.header-container {
     padding: 50px 50px 30px 70px;
     display: flex;
     flex-direction: row;
@@ -44,61 +53,62 @@ body{
     background-color: #477968;
 }
 
-.contactInfo{
+.contact-Info {
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
     
 }
 
-.contact-item{
+.contact-item {
     margin-right: 20px;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     margin-top: 10px;
 }
 
-.portfolioPhoto{
+.portfolio-Photo {
     width: 200px;
     border-radius: 200px;
 }
-.summary{
+.summary {
     margin: 0px;
 }
 
-.contactIcon{
+.contactIcon {
     width: 25px;
     height: 25px;
 }
 
-main{
+main {
     background-color: aliceblue;
 }
 
-.main-container{
+.main-container {
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.experience{
+.experience {
     width: 500px;
 }
 
 h3{
-    margin-top: 40px;
+    margin: 20px 0px 20px 0px;
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid black;
 }
 
-.technologies-list{
+.technologies-list {
     line-height: 40px;
 }
 
@@ -110,26 +120,29 @@ h3{
     list-style-type: circle;
 }
 
-.list-education{
+.list-education {
     margin: 0px;
 }
 
+.projects {
+    padding-bottom: 40px;
+}
 
-.project-images{
+.project-images {
     padding: 30px;
     display: flex;
     justify-content: space-around;
 }
 
-.imageOfProject{
+.imageOfProject {
     width: 160px;
 }
 
-.project-title{
+.project-title {
     border-bottom: 0;
 }
 
-footer{
+footer {
     background-color:#477968;
     padding: 10px 30px 10px 30px;
     display: flex;
@@ -139,15 +152,15 @@ footer{
     align-items: center;
 
 }
-.RS-School-logo{
+.RS-School-logo {
     width: 100px;
 }
 
-.footerIcon{
+.footerIcon {
     width: 20px;
 }
 
-footer span{
+footer span {
 width: 100px;
 text-align: right;
 }
