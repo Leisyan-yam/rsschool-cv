@@ -10,6 +10,8 @@
     h4,
     h5 {
         margin: 5px;
+        font-family: 'Noto Serif NP Hmong', serif;
+        
     }
 
 body {
@@ -17,6 +19,7 @@ body {
     justify-content: center;
     margin-top: 30px;
     background-color: #9ea8a8;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -125,6 +128,10 @@ h3{
 
 .job-description {
     list-style-type: circle;
+}
+
+li {
+font-size: 14px;
 }
 
 .list-education {
