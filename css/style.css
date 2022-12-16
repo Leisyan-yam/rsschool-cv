@@ -41,7 +41,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 60px;
-    background-color: rgb(71, 121, 104);
+    background-color: #477968;
 }
 
 .contactInfo{
@@ -127,4 +127,27 @@ h3{
 
 .project-title{
     border-bottom: 0;
+}
+
+footer{
+    background-color:#477968;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+.RS-School-logo{
+    width: 100px;
+}
+
+.footerIcon{
+    width: 20px;
+}
+
+footer span{
+width: 100px;
+text-align: right;
 }
