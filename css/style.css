@@ -15,7 +15,6 @@
 body {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
     background-color: #eaf1ef;
     font-family: 'Noto Serif NP Hmong', serif;
 }
@@ -54,6 +53,7 @@ body {
 .container {
     width: 900px;
     background-color: #477968;
+    margin-top: 30px;
     margin-bottom: 30px; 
     box-shadow: inset 0 -3em 3em #0000001a, 0 0 0 2px #ffffff,
     0.3em 0.3em 1em #0000004d;
@@ -72,10 +72,10 @@ h4 span {
 }
 
 header {
-    padding: 50px 50px 30px 70px;
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 60px;    
+    padding: 50px 50px 30px 70px;
 }
 
 .contact-Info {
@@ -123,10 +123,11 @@ main {
 }
 
 .main-container {
-    padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+    flex-wrap: wrap; 
+    padding: 20px;
 }
 
 #experience {
@@ -141,6 +142,10 @@ h3{
 }
 
 .technologies-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     line-height: 40px;
 }
 
@@ -162,13 +167,15 @@ font-size: 14px;
 
 
 .project-images {
-    padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
 .image-Of-Project {
     width: 160px;
+    margin: 10px;
 }
 
 .image-Of-Project:hover{
@@ -176,16 +183,20 @@ font-size: 14px;
     transition: 1s;
 }
 
+.code {
+    display: flex;
+    justify-content: center;
+}
 .project-title {
     border-bottom: 0;
 }
 
 
 #contact {
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   padding: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
 }
 
 #contact p {
@@ -217,4 +228,70 @@ footer {
 footer span {
 width: 100px;
 text-align: right;
+}
+
+
+@media all and (max-width: 800px) {
+    .nav{
+        display: none;
+    }
+
+    .container {
+    width: 800px;
+    margin: 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    h3,
+    h4, 
+    .summary {
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media all and (max-width: 500px) {
+
+    header {
+        padding: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .container {
+    width: 400px;
+    margin: 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    h3,
+    h4, 
+    .summary {
+        font-size: 13px;
+    }
+
+    .technologies-list {
+        flex-direction: row;
+    }
+
+    #experience {
+        width: fit-content;
+    }
+    footer {
+        padding: 5px;
+        justify-content: space-evenly
+    }
+
+    footer span {
+        width: auto;
+        text-align: right;
+        }
 }
