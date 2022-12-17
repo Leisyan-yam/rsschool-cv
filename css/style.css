@@ -20,6 +20,36 @@ body {
     font-family: 'Noto Serif NP Hmong', serif;
 }
 
+.nav {
+    position: fixed;
+    right: 160px;
+    top: 50px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    width: 110px;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 30px 5px;
+    background-color: #477968;
+    text-align: center;
+    box-shadow: 0 0 3px #00000080;
+}
+
+.nav-item:hover {
+    background-color: #355b4e;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: smaller;
+    text-transform: capitalize;
+}
 
 .container {
     width: 900px;
@@ -34,23 +64,14 @@ body {
     margin: 15px 0px 1px 0px;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
+
 h4 span {
     font-style: italic;
     font-weight: 100;
     font-size: 12px;
 }
 
-.nav-item, .nav-link {
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.header-container {
+header {
     padding: 50px 50px 30px 70px;
     display: flex;
     flex-direction: row;
@@ -90,7 +111,7 @@ h2 {
     margin: 0px;
 }
 
-.contactIcon {
+.contact-Icon {
     width: 25px;
     height: 25px;
 }
@@ -108,7 +129,7 @@ main {
     justify-content: space-evenly;
 }
 
-.experience {
+#experience {
     width: 500px;
 }
 
@@ -123,7 +144,7 @@ h3{
     line-height: 40px;
 }
 
-.stack{
+#skills{
     text-align: center;
 }
 
@@ -139,9 +160,6 @@ font-size: 14px;
     margin: 0px;
 }
 
-.projects {
-    padding-bottom: 40px;
-}
 
 .project-images {
     padding: 30px;
@@ -149,17 +167,35 @@ font-size: 14px;
     justify-content: space-around;
 }
 
-.imageOfProject {
+.image-Of-Project {
     width: 160px;
 }
 
-.imageOfProject:hover{
+.image-Of-Project:hover{
     scale: 1.05;
     transition: 1s;
 }
 
 .project-title {
     border-bottom: 0;
+}
+
+
+#contact {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 60px;
+}
+
+#contact p {
+    width: 600px;
+}
+
+#contact p a {
+    color: #477968;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 footer {
