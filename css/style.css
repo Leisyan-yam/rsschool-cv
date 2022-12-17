@@ -241,6 +241,13 @@ text-align: right;
     margin: 0;
     }
 
+    .technologies-list {
+        flex-direction: row;
+    }
+    .technologies-item {
+        margin: 10px;
+    }
+
     section {
         margin: 10px;
     }
@@ -248,7 +255,7 @@ text-align: right;
     h3,
     h4, 
     .summary {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -265,21 +272,6 @@ text-align: right;
     }
     .container {
     width: 400px;
-    margin: 0;
-    }
-
-    section {
-        margin: 10px;
-    }
-
-    h3,
-    h4, 
-    .summary {
-        font-size: 13px;
-    }
-
-    .technologies-list {
-        flex-direction: row;
     }
 
     #experience {
