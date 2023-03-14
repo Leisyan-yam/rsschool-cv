@@ -5,7 +5,7 @@
 
 * GitHub: [Leisyan-yam](https://github.com/Leisyan-yam)
 * Email: n.leisyan@yandex.ru
-* Discord: Leisyan (@Leisyan-yam)
+* Discord: Leisyan (@leisyan-yam#0087)
 
 ***
 ### About 
