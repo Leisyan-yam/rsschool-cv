@@ -135,9 +135,9 @@ main {
     width: 500px;
 }
 
-h3{
+h2{
     margin: 20px 0px 20px 0px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     border-bottom: 1px solid black;
 }
