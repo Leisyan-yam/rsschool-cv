@@ -32,8 +32,6 @@ Customer Service Specialist (2017-2021)
     * Linquistics- Technical Translation 
 * CanSheCode LLC 
     * Front-End Development Course
-* Rolling Scopes School
-    * JS/FE Pre-School
 
 ### Code Example
 ```
